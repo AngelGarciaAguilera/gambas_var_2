@@ -1,0 +1,41 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { LResult Label
+    MoveScaled(12,17,41,18)
+    Font = Font["+7"]
+    Alignment = Align.Center
+    Text = ("RESULTADO")
+  }
+  { BSuma Button
+    MoveScaled(11,39,16,4)
+    Text = ("Sumar")
+  }
+  { BResta Button
+    MoveScaled(38,39,16,4)
+    Text = ("Restar")
+  }
+  { BDivision Button
+    MoveScaled(11,48,16,4)
+    Text = ("Dividir")
+  }
+  { BMultiplicacion Button
+    MoveScaled(38,48,16,4)
+    Text = ("Multiplicar")
+  }
+  { TBX TextBox
+    MoveScaled(7,9,24,4)
+  }
+  { TBY TextBox
+    MoveScaled(33,9,24,4)
+  }
+  { LX Label
+    MoveScaled(8,4,8,3)
+    Text = ("X:")
+  }
+  { LY Label
+    MoveScaled(34,4,8,3)
+    Text = ("Y:")
+  }
+}

@@ -1,0 +1,37 @@
+' Gambas class file
+
+
+Private x As Integer 
+Private y As Integer 
+
+Public Sub BSuma_Click()
+  x = TBX.Text
+  y = TBY.Text
+  
+  LResult.Text = x + y
+
+End
+
+Public Sub BResta_Click()
+  x = TBX.Text
+  y = TBY.Text
+  
+  LResult.Text = x - y
+
+End
+
+Public Sub BDivision_Click()
+  x = TBX.Text
+  y = TBY.Text
+  
+  LResult.Text = x / y
+
+End
+
+Public Sub BMultiplicacion_Click()
+  x = TBX.Text
+  y = TBY.Text
+  
+  LResult.Text = x * y
+
+End
